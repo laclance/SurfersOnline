@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+    <test name="AreaServiceTest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.services.AreaServiceTest" />
+        </classes>
+    </test>
+
+    <test name="LocationServiceTest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.services.LocationServiceTest" />
+        </classes>
+    </test>
+
+    <test name="SurfSpotServiceTest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.services.SurfSpotServiceTest" />
+        </classes>
+    </test>
+
+    <test name="UserGroupServiceTest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.services.UserGroupServiceTest" />
+        </classes>
+    </test>
+
+    <test name="UserServiceTest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.services.UserServiceTest" />
+        </classes>
+    </test>
+</suite>

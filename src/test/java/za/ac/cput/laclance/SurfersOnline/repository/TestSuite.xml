@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+    <test name="AreaCrudTest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.repository.AreaCrudTest" />
+        </classes>
+    </test>
+
+    <test name="LocationCrudTest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.repository.LocationCrudTest" />
+        </classes>
+    </test>
+
+    <test name="SurfSpotCrudTest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.repository.SurfSpotCrudTest" />
+        </classes>
+    </test>
+
+    <test name="UserGroupCrudTest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.repository.UserGroupCrudTest" />
+        </classes>
+    </test>
+
+    <test name="UserCrudTest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.repository.UserCrudTest" />
+        </classes>
+    </test>
+</suite>
