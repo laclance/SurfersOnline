@@ -10,12 +10,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class UserGroupTest {
+public class UserGroupAPITestTest {
     private BasicInfo basics;
     private List<User> users;
     private UserBasics userBasics;
     private UserContact contact;
     private UserExtras extras;
+    private List<Comment> comments;
 
     @Before
     public void setUp() throws Exception {
@@ -24,6 +25,8 @@ public class UserGroupTest {
         values.put("lastName", "Coe");
         values.put("username","laclance");
         values.put("password", "123");
+        values.put("comment","hello");
+        values.put("username","laclance");
 
         basics = BasicInfoFactory.createBasicInfo("Old School Riders", "Riding Old School");
         userBasics = UserBasicsFactory.createUserBasics(values, 'm', "04/06/91");
@@ -33,11 +36,14 @@ public class UserGroupTest {
 
         User user = UserFactory.createUser(values, userBasics, contact, extras);
         users.add(user);
+
+        Comment comment = CommentFactory.createComment(values);
+        comments.add(comment);
     }
 
     @Test
     public void testCreateGroup() throws Exception {
-        UserGroup Group = UserGroupFactory.createGroup(basics, users);
+        UserGroup Group = UserGroupFactory.createGroup(basics, comments, users);
         Assert.assertEquals("Old School Riders", Group.getBasicInfo().getName());
     }
 }

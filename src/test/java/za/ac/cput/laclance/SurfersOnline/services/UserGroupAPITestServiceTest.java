@@ -20,7 +20,7 @@ import java.util.Map;
 
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
-public class UserGroupServiceTest extends AbstractTestNGSpringContextTests{
+public class UserGroupAPITestServiceTest extends AbstractTestNGSpringContextTests{
     @Autowired
     private UserGroupService service;
 
@@ -29,6 +29,7 @@ public class UserGroupServiceTest extends AbstractTestNGSpringContextTests{
 
     private Long id;
 
+    private List<Comment> comments;
     private List<User> users;
     private Map<String,String> values;
     private UserBasics userBasics;
@@ -38,7 +39,9 @@ public class UserGroupServiceTest extends AbstractTestNGSpringContextTests{
 
     @BeforeMethod
     public void setUp() throws Exception {
+        comments = new ArrayList<>();
         values = new HashMap<>();
+        values.put("comment","hello");
         values.put("firstName","Lance");
         values.put("lastName", "Coe");
         values.put("username","laclance");
@@ -58,6 +61,9 @@ public class UserGroupServiceTest extends AbstractTestNGSpringContextTests{
         users.add(user1);
         users.add(user2);
 
+        Comment comment = CommentFactory.createComment(values);
+        comments.add(comment);
+
         basics = BasicInfoFactory.createBasicInfo("Old School Riders", "Riding Old School");
     }
 
@@ -68,7 +74,7 @@ public class UserGroupServiceTest extends AbstractTestNGSpringContextTests{
 
     @Test
     public void create() throws Exception {
-        UserGroup group = UserGroupFactory.createGroup(basics, users);
+        UserGroup group = UserGroupFactory.createGroup(basics, comments, users);
         repository.save(group);
         id=group.getId();
         Assert.assertNotNull(group.getId());
@@ -76,19 +82,19 @@ public class UserGroupServiceTest extends AbstractTestNGSpringContextTests{
 
     @Test(dependsOnMethods = "create")
     public void testGetGroup() throws Exception {
-        UserGroup userGroup = service.getGroup(id);
+        UserGroup userGroup = service.findById(id);
         Assert.assertNotNull(userGroup);
     }
 
     @Test(dependsOnMethods = "testGetGroup")
     public void testGetGroups() throws Exception {
-        List<UserGroup> userGroup = service.getAllGroups();
+        List<UserGroup> userGroup = service.findAll();
         Assert.assertTrue(userGroup.size() == 1);
     }
 
     @Test(dependsOnMethods = "testGetGroups")
     public void testGetGroupUsers() throws Exception {
-        List<User> users = service.getUsers(id);
+        List<User> users = service.findAllUsers(id);
         Assert.assertTrue(users.size() == 2);
     }
 }

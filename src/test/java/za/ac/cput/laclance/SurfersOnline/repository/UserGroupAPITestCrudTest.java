@@ -17,9 +17,10 @@ import java.util.Map;
 
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
-public class UserGroupCrudTest extends AbstractTestNGSpringContextTests{
+public class UserGroupAPITestCrudTest extends AbstractTestNGSpringContextTests{
     private Long id;
 
+    private List<Comment> comments;
     private List<User> users;
     private Map<String, String> values;
     private BasicInfo basics;
@@ -32,6 +33,9 @@ public class UserGroupCrudTest extends AbstractTestNGSpringContextTests{
 
     @BeforeClass
     public void setUp() throws Exception {
+        comments = new ArrayList<>();
+        Map values = new HashMap<>();
+        values.put("comment","hello");
         users = new ArrayList<>();
         values = new HashMap<>();
         values.put("firstName","Lance");
@@ -51,6 +55,9 @@ public class UserGroupCrudTest extends AbstractTestNGSpringContextTests{
         users.add(user1);
         users.add(user2);
 
+        Comment comment = CommentFactory.createComment(values);
+        comments.add(comment);
+
         basics = BasicInfoFactory.createBasicInfo("Low Riders", "Riding low");
     }
 
@@ -61,7 +68,7 @@ public class UserGroupCrudTest extends AbstractTestNGSpringContextTests{
 
     @Test
     public void create() throws Exception{
-        UserGroup group = UserGroupFactory.createGroup(basics, users);
+        UserGroup group = UserGroupFactory.createGroup(basics, comments, users);
         repository.save(group);
         id = group.getId();
         Assert.assertNotNull(group.getId());
