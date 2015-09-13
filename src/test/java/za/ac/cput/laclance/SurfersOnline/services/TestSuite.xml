@@ -22,7 +22,7 @@
 
     <test name="UserGroupServiceTest">
         <classes>
-            <class name="za.ac.cput.laclance.SurfersOnline.services.UserGroupServiceTest" />
+            <class name="za.ac.cput.laclance.SurfersOnline.services.UserGroupAPITestServiceTest" />
         </classes>
     </test>
 

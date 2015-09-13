@@ -111,6 +111,7 @@ public class UserGroup implements Serializable {
         return result;
     }
 
+<<<<<<< HEAD
     @Override
     public String toString() {
         return "UserGroup{" +
@@ -120,4 +121,6 @@ public class UserGroup implements Serializable {
                 ", users=" + users +
                 '}';
     }
+=======
+>>>>>>> 6f61c1bd8eafb3177eb6bd2feaa8b79461e38527
 }

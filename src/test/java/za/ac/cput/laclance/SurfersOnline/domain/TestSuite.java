@@ -6,7 +6,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         AreaTest.class,
-        UserGroupTest.class,
+        UserGroupAPITestTest.class,
         LocationTest.class,
         SurfSpotTest.class,
         UserTest.class
