@@ -15,7 +15,9 @@ import za.ac.cput.laclance.SurfersOnline.domain.*;
 import za.ac.cput.laclance.SurfersOnline.repository.LocationRepository;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
@@ -30,16 +32,24 @@ public class LocationServiceTest extends AbstractTestNGSpringContextTests {
     private Weather weather;
     private Waves waves;
     private List<SurfSpot> surfspots;
+    private List<Comment> comments;
 
     @BeforeClass
     public void setUp() throws Exception {
+        comments = new ArrayList<>();
+        Map values = new HashMap<>();
+        values.put("comment","hello");
+        values.put("username","laclance");
         basics = BasicInfoFactory.createBasicInfo("Blouberg", "");
         weather = WeatherFactory.createWeather("Cloudy", 1, 1, 1, 1);
         waves = WavesFactory.createWaves("Good", 1, "s", 1, "s", "s", 1);
 
+        Comment comment = CommentFactory.createComment(values, "10/10/2015");
+        comments.add(comment);
+
         surfspots = new ArrayList();
-        surfspots.add(SurfSpotFactory.createSurfSpot(basics, waves));
-        surfspots.add(SurfSpotFactory.createSurfSpot(basics, waves));
+        surfspots.add(SurfSpotFactory.createSurfSpot(basics, waves, comments));
+        surfspots.add(SurfSpotFactory.createSurfSpot(basics, waves, comments));
     }
 
     @AfterClass
@@ -57,19 +67,19 @@ public class LocationServiceTest extends AbstractTestNGSpringContextTests {
 
     @Test(dependsOnMethods = "create")
     public void testGetLocation() throws Exception {
-        Location location = service.getLocation(id);
+        Location location = service.findById(id);
         Assert.assertNotNull(location);
     }
 
     @Test(dependsOnMethods = "testGetLocation")
     public void testGetLocations() throws Exception {
-        List<Location> locations = service.getAllLocations();
+        List<Location> locations = service.findAll();
         Assert.assertTrue(locations.size() == 1);
     }
 
     @Test(dependsOnMethods = "testGetLocations")
     public void testGetLocationSurfSpots() throws Exception {
-        List<SurfSpot> surfSpots = service.getSurfSpots(id);
+        List<SurfSpot> surfSpots = service.findAllSurfSpots(id);
         Assert.assertTrue(surfSpots.size() == 2);
     }
 }

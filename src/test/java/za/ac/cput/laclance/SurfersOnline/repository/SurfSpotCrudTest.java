@@ -11,7 +11,9 @@ import za.ac.cput.laclance.SurfersOnline.conf.factory.*;
 import za.ac.cput.laclance.SurfersOnline.domain.*;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
@@ -20,12 +22,20 @@ public class SurfSpotCrudTest extends AbstractTestNGSpringContextTests {
 
     private BasicInfo basics;
     private Waves waves;
+    private List<Comment> comments;
 
     @Autowired
     private SurfSpotRepository repository;
 
     @BeforeClass
     public void setUp() throws Exception {
+        comments = new ArrayList<>();
+        Map values = new HashMap<>();
+        values.put("comment","hello");
+        values.put("username","laclance");
+
+        Comment comment = CommentFactory.createComment(values, "10/10/2015");
+        comments.add(comment);
         basics = BasicInfoFactory.createBasicInfo("Big Bay", "warm");
         waves = WavesFactory.createWaves("Good", 1, "s", 1, "s", "s", 1);
     }
@@ -37,7 +47,7 @@ public class SurfSpotCrudTest extends AbstractTestNGSpringContextTests {
 
     @Test
     public void create() throws Exception {
-        SurfSpot surfSpot = SurfSpotFactory.createSurfSpot(basics, waves);
+        SurfSpot surfSpot = SurfSpotFactory.createSurfSpot(basics, waves, comments);
         repository.save(surfSpot);
         id = surfSpot.getId();
         Assert.assertNotNull(surfSpot.getId());

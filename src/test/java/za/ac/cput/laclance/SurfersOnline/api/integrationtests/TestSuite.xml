@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-</beans>
+<suite name="TestSuite">
+    <test name="AreaAPITest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.api.integrationtests.AreaAPITest" />
+        </classes>
+    </test>
+
+    <test name="LocationAPITest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.api.integrationtests.LocationAPITest" />
+        </classes>
+    </test>
+
+    <test name="SurfSpotAPITest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.api.integrationtests.SurfSpotAPITest" />
+        </classes>
+    </test>
+
+    <test name="UserGroupAPITest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.api.integrationtests.UserGroupAPITest" />
+        </classes>
+    </test>
+
+    <test name="UserAPITest">
+        <classes>
+            <class name="za.ac.cput.laclance.SurfersOnline.api.integrationtests.UserAPITest" />
+        </classes>
+    </test>
+</suite>

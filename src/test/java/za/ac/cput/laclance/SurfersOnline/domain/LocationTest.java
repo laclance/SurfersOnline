@@ -6,24 +6,34 @@ import org.junit.Test;
 import za.ac.cput.laclance.SurfersOnline.conf.factory.*;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class LocationTest {
     private BasicInfo basics;
     private Weather weather;
     private Waves waves;
     private List<SurfSpot> surfspots;
+    private List<Comment> comments;
 
     @Before
     public void setUp() throws Exception {
+        comments = new ArrayList<>();
+        Map values = new HashMap<>();
+        values.put("comment","hello");
+        values.put("username","laclance");
         basics = BasicInfoFactory.createBasicInfo("Blouberg", "");
         weather = WeatherFactory.createWeather("Cloudy", 1, 1, 1, 1);
 
+        Comment comment = CommentFactory.createComment(values, "10/10/2015");
+        comments.add(comment);
+
         surfspots = new ArrayList();
         waves = WavesFactory.createWaves("Good", 1, "s", 1, "s", "s", 1);
-        surfspots.add(SurfSpotFactory.createSurfSpot(basics, waves));
+        surfspots.add(SurfSpotFactory.createSurfSpot(basics, waves, comments));
         waves = WavesFactory.createWaves("bad", 1, "s", 1, "s", "s", 1);
-        surfspots.add(SurfSpotFactory.createSurfSpot(basics, waves));
+        surfspots.add(SurfSpotFactory.createSurfSpot(basics, waves, comments));
     }
 
     @Test

@@ -61,7 +61,7 @@ public class UserGroupAPITestServiceTest extends AbstractTestNGSpringContextTest
         users.add(user1);
         users.add(user2);
 
-        Comment comment = CommentFactory.createComment(values);
+        Comment comment = CommentFactory.createComment(values, "10/10/2015");
         comments.add(comment);
 
         basics = BasicInfoFactory.createBasicInfo("Old School Riders", "Riding Old School");

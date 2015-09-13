@@ -1,7 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f232c7a8-f001-4bee-8c6c-2e72440852d3" name="Default" comment="" />
+    <list default="true" id="f232c7a8-f001-4bee-8c6c-2e72440852d3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/UserGroupTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/repository/UserGroupCrudTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/services/UserGroupServiceTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/App.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/AppTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Area$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Area$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Area.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Area.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/repository/AreaCrudTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/repository/AreaCrudTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/AreaFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/AreaFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/AreaPage.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/AreaPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/repository/AreaRepository.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/repository/AreaRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/AreaResource$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/AreaResource$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/AreaResource.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/AreaResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/AreaService.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/AreaService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/Impl/AreaServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/Impl/AreaServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/services/AreaServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/services/AreaServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/AreaTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/AreaTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/BasicInfo$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/BasicInfo$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/BasicInfo.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/BasicInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/BasicInfoFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/BasicInfoFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/HomePage.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/HomePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Location$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Location$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Location.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Location.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/repository/LocationCrudTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/repository/LocationCrudTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/LocationFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/LocationFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/LocationPage.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/LocationPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/repository/LocationRepository.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/repository/LocationRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/LocationResource$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/LocationResource$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/LocationResource.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/LocationResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/LocationService.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/LocationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/Impl/LocationServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/Impl/LocationServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/services/LocationServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/services/LocationServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/LocationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/LocationTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/SurfSpot$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/SurfSpot$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/SurfSpot.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/SurfSpot.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/repository/SurfSpotCrudTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/repository/SurfSpotCrudTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/SurfSpotFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/SurfSpotFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/SurfSpotPage.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/SurfSpotPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/repository/SurfSpotRepository.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/repository/SurfSpotRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/SurfSpotResource$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/SurfSpotResource$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/SurfSpotResource.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/SurfSpotResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/SurfSpotService.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/SurfSpotService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/Impl/SurfSpotServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/Impl/SurfSpotServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/services/SurfSpotServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/services/SurfSpotServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/SurfSpotTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/SurfSpotTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/TestSuite.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/TestSuite.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/User$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/User$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/User.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserBasics$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserBasics$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserBasics.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserBasics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/UserBasicsFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/UserBasicsFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserContact$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserContact$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserContact.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserContact.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/UserContactFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/UserContactFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/repository/UserCrudTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/repository/UserCrudTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserExtras$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserExtras$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserExtras.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserExtras.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/UserExtrasFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/UserExtrasFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/UserFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/UserFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserGroup$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserGroup$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserGroup.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/UserGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/UserGroupFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/UserGroupFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/UserGroupPage.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/UserGroupPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/repository/UserGroupRepository.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/repository/UserGroupRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/UserGroupResource$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/UserGroupResource$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/UserGroupResource.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/UserGroupResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/UserGroupService.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/UserGroupService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/Impl/UserGroupServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/Impl/UserGroupServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/UserPage.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/api/UserPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/repository/UserRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/UserResource$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/UserResource$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/UserResource.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/model/UserResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/UserService.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/Impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/services/Impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/services/UserServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/services/UserServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/UserTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/laclance/SurfersOnline/domain/UserTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Waves$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Waves$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Waves.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Waves.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/WavesFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/WavesFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Weather$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Weather$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Weather.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/domain/Weather.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/WeatherFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/laclance/SurfersOnline/conf/factory/WeatherFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Area.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Area.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/AreaAPITest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/AreaAPITest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/AreaCrudTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/AreaCrudTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/AreaPage.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/AreaPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/AreaService.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/AreaService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/AreaServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/AreaServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/AreaServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/AreaServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/BasicInfo.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/BasicInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Comment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/CommentFactory.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/CommentFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/repository/CommentRepository.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/repository/CommentRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/CommentResource.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/CommentResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/CrudMockPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/CrudMockPageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/CrudPageMockExample.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/CrudPageMockExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/HomeMockTests.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/HomeMockTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Location.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Location.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/LocationAPITest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/LocationAPITest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/LocationCrudTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/LocationCrudTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/LocationPage.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/LocationPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/LocationResource.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/LocationResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/LocationService.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/LocationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/LocationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/LocationServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/LocationServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/LocationServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/LocationTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/LocationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Services.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Services.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/SurfSpot.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/SurfSpot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/SurfSpotAPITest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/SurfSpotAPITest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/SurfSpotCrudTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/SurfSpotCrudTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/SurfSpotFactory.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/SurfSpotFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/SurfSpotPage.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/SurfSpotPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/SurfSpotResource.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/SurfSpotResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotService.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/SurfSpotServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/SurfSpotServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/SurfSpotTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/SurfSpotTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SurfersOnline.iml" afterPath="$PROJECT_DIR$/SurfersOnline.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/TestSuite.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/TestSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/TestSuite.xml" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/UserAPITest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/UserAPITest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/UserGroup.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/UserGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/UserGroupAPITest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/UserGroupAPITest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/UserGroupAPITestCrudTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/UserGroupAPITestCrudTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserGroupAPITestServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserGroupAPITestServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/UserGroupAPITestTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/UserGroupAPITestTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/UserGroupFactory.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/UserGroupFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserGroupPage.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserGroupPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/UserGroupService.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/UserGroupService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/UserGroupServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/UserGroupServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserPage.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/UserResource.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/UserResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SurfersOnline.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,79 +171,171 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestSuite.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml">
+      <file leaf-file-name="AreaServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/AreaServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1578948" vertical-offset="0" max-vertical-offset="702">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="1440">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AreaAPITest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/AreaAPITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1338" max-vertical-offset="1962">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/CommentResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1404">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserCrudTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/UserCrudTest.java">
+      <file leaf-file-name="CommentFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/CommentFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4850299" vertical-offset="328" max-vertical-offset="1440">
-              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Comment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2016">
+              <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SurfSpotPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/SurfSpotPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
+              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocationServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/LocationServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1350">
+              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/LocationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="1134">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSuite.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="702">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SurfSpotAPITest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/SurfSpotAPITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.9620854" vertical-offset="666" max-vertical-offset="1962">
+              <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/App.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.idea/.name" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/CommunityPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserGroupPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/EventPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/TestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Store.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/StoreResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Location.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/UserCrudTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Comments.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/repository/CommentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/SurfSpot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/BasicInfoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/SurfSpotFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/LocationResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/UserResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/SurfSpotResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/AreaResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/AreaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/AreaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/SurfSpotServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/AreaPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/SurfSpotPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/LocationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/LocationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/LocationPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/LocationFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/SurfSpotTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/LocationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/AreaFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/UserGroupTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/AreaTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/TestSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/AreaServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/LocationServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserGroupServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/BasicInfo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/UserGroupCrudTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Area.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/UserGroup.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Area.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/CommentFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/SurfSpotFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/UserGroupFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/SurfSpotTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/UserGroupTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/AreaCrudTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/SurfSpotCrudTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/LocationCrudTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/TestSuite.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/UserCrudTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/UserGroupCrudTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Services.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/AreaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/AreaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Location.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/CommentResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/SurfSpotServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/UserGroupServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/LocationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/UserGroupService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/LocationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/HomeMockTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/LocationServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserGroupServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/CrudPageMockExample.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/CrudMockPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/AreaAPITest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/UserGroupAPITest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/SurfSpotAPITest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/LocationAPITest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/UserAPITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/AreaPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/SurfSpotPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserGroupPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/LocationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/AreaServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Comment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/LocationTest.java" />
       </list>
     </option>
   </component>
@@ -118,10 +350,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-1" />
-    <option name="width" value="1368" />
-    <option name="height" value="749" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -132,7 +362,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -148,6 +378,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,7 +480,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integrationtests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,10 +562,128 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurfersOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,14 +704,72 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/CputCourses-master" />
   </component>
-  <component name="RunManager" selected="TestNG./home/student/IdeaProjects/SurfersOnline/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml (2)">
-    <configuration default="false" name="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain" />
+      <recent name="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory" />
+      <recent name="$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SurfSpotAPITest">
+    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.laclance.SurfersOnline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.laclance.SurfersOnline.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SurfersOnline" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserAPITest.testRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.laclance.SurfersOnline.api.integrationtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SurfersOnline" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="za.ac.cput.laclance.SurfersOnline.api.integrationtests" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.laclance.SurfersOnline.api.integrationtests.UserAPITest" />
+      <option name="METHOD_NAME" value="testRead" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="SurfersOnline" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -352,117 +794,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="UserCrudTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="za.ac.cput.laclance.SurfersOnline.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SurfersOnline" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="za.ac.cput.laclance.SurfersOnline.repository" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.laclance.SurfersOnline.repository.UserCrudTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserCrudTest.update" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="za.ac.cput.laclance.SurfersOnline.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SurfersOnline" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="za.ac.cput.laclance.SurfersOnline.repository" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.laclance.SurfersOnline.repository.UserCrudTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserCrudTest.update (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="za.ac.cput.laclance.SurfersOnline.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SurfersOnline" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="za.ac.cput.laclance.SurfersOnline.repository" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.laclance.SurfersOnline.repository.UserCrudTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="SurfersOnline" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -483,6 +820,34 @@
       <envs />
       <properties />
       <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SurfSpotAPITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.laclance.SurfersOnline.api.integrationtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SurfersOnline" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="za.ac.cput.laclance.SurfersOnline.api.integrationtests" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.laclance.SurfersOnline.api.integrationtests.SurfSpotAPITest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -731,19 +1096,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG./home/student/IdeaProjects/SurfersOnline/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml (1)" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.UserCrudTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.UserCrudTest.update" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.UserCrudTest.update (1)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG./home/student/IdeaProjects/SurfersOnline/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.App" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserAPITest.testRead" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG./home/student/IdeaProjects/SurfersOnline/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG./home/student/IdeaProjects/SurfersOnline/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SurfSpotAPITest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG./home/student/IdeaProjects/SurfersOnline/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml (2)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.UserCrudTest.update (1)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.UserCrudTest.update" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.UserCrudTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG./home/student/IdeaProjects/SurfersOnline/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SurfSpotAPITest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG./home/student/IdeaProjects/SurfersOnline/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.App" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserAPITest.testRead" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG./home/student/IdeaProjects/SurfersOnline/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -770,14 +1135,23 @@
       <workItem from="1440270770557" duration="938000" />
       <workItem from="1440272348549" duration="1616000" />
       <workItem from="1440316999562" duration="13295000" />
+      <workItem from="1442040762592" duration="9690000" />
+      <workItem from="1442054162107" duration="4069000" />
+      <workItem from="1442060225528" duration="935000" />
+      <workItem from="1442061587948" duration="573000" />
+      <workItem from="1442062227326" duration="1474000" />
+      <workItem from="1442078694719" duration="2558000" />
+      <workItem from="1442082195788" duration="805000" />
+      <workItem from="1442085359628" duration="5022000" />
+      <workItem from="1442155595377" duration="976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33693000" />
+    <option name="totallyTimeSpent" value="59795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="749" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -787,37 +1161,37 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6910828" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6802218" sideWeight="0.11404834" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10828026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6910828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28096676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26433122" sideWeight="0.88595164" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -836,8 +1210,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -865,8 +1239,14 @@
           <line>2</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/UserGroupAPITestTest.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -875,399 +1255,417 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/UserGroupResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1116">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/AreaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/AreaResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1116">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/LocationResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="754" max-vertical-offset="1350">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/SurfSpotResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.15100671" vertical-offset="270" max-vertical-offset="1134">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserGroupPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48322147" vertical-offset="0" max-vertical-offset="774">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/SurfSpotPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.030201342" vertical-offset="0" max-vertical-offset="596">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/AreaPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="990">
-          <caret line="51" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/LocationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/LocationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/LocationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33221477" vertical-offset="126" max-vertical-offset="1080">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/WavesFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12080537" vertical-offset="0" max-vertical-offset="596">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/WeatherFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/LocationFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/SurfSpotFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/SurfSpotServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69463086" vertical-offset="0" max-vertical-offset="596">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="630">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/UserGroupServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="612">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21140939" vertical-offset="0" max-vertical-offset="596">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/AreaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7230444" vertical-offset="0" max-vertical-offset="504">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/LocationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59192824" vertical-offset="42" max-vertical-offset="990">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/SurfSpotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53061223" vertical-offset="0" max-vertical-offset="468">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/LocationServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="994" max-vertical-offset="1206">
-          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/TestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/UserGroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="738">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/UserExtras.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25714287" vertical-offset="216" max-vertical-offset="1170">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserGroupServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="862" max-vertical-offset="1512">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Waves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.117647" vertical-offset="1451" max-vertical-offset="1944">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="66" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/AreaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19745223" vertical-offset="46" max-vertical-offset="360">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/UserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22929937" vertical-offset="0" max-vertical-offset="450">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/BasicInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1080">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/AreaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8487395" vertical-offset="93" max-vertical-offset="558">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/AreaServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1278">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Area.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="1458">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="2106">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/SurfSpot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="1188">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0259067" vertical-offset="252" max-vertical-offset="1530">
-          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding>
-            <element signature="e#955#956#0" expanded="false" />
-            <element signature="e#987#988#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/UserGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51295334" vertical-offset="180" max-vertical-offset="1818">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/UserGroupCrudTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27979276" vertical-offset="162" max-vertical-offset="1944">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="630">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/AreaCrudTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="910" max-vertical-offset="1692">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.52462524" vertical-offset="515" max-vertical-offset="1116">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8115632" vertical-offset="487" max-vertical-offset="1062">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/TestSuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5947136" vertical-offset="216" max-vertical-offset="702">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/SurfSpotCrudTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.887805" vertical-offset="4" max-vertical-offset="1494">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-0.86440676" vertical-offset="918" max-vertical-offset="1656">
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/LocationCrudTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26341462" vertical-offset="378" max-vertical-offset="1620">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="1.3220339" vertical-offset="108" max-vertical-offset="1566">
+          <caret line="45" column="76" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/TestSuite.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/SurfSpotCrudTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1578948" vertical-offset="0" max-vertical-offset="702">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state vertical-scroll-proportion="-0.73163843" vertical-offset="907" max-vertical-offset="1440">
+          <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Services.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/AreaResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/LocationResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1214643" vertical-offset="3" max-vertical-offset="1440">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="83" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/AreaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11980033" vertical-offset="0" max-vertical-offset="601">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/SurfSpotServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="864">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="720">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/UserGroupServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="882">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/LocationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/UserGroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/LocationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26955074" vertical-offset="0" max-vertical-offset="882">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/services/Impl/AreaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76039934" vertical-offset="173" max-vertical-offset="810">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/AreaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1797005" vertical-offset="0" max-vertical-offset="601">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/UserGroupAPITestCrudTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.359401" vertical-offset="270" max-vertical-offset="1836">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/repository/UserCrudTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4850299" vertical-offset="328" max-vertical-offset="1440">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state vertical-scroll-proportion="-0.9467554" vertical-offset="677" max-vertical-offset="1440">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/SurfSpotResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.70715475" vertical-offset="497" max-vertical-offset="1098">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33214286" vertical-offset="1254" max-vertical-offset="2052">
+          <caret line="94" column="49" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/SurfSpot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.040816326" vertical-offset="1140" max-vertical-offset="1998">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/SurfSpotServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="583" max-vertical-offset="1224">
+          <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserGroupAPITestServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="980" max-vertical-offset="1620">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5609756" vertical-offset="583" max-vertical-offset="1116">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/HomeMockTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="954">
+          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/CrudPageMockExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/CrudMockPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1782">
+          <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1836">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32826748" vertical-offset="108" max-vertical-offset="630">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/AreaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35573122" vertical-offset="0" max-vertical-offset="506">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/UserGroupAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.122807" vertical-offset="1202" max-vertical-offset="1962">
+          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1596#1626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/LocationAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.070175" vertical-offset="554" max-vertical-offset="1962">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1593#1623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/TestSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/UserAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="17.070175" vertical-offset="1729" max-vertical-offset="2250">
+          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1763#1793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/AreaPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1366" max-vertical-offset="1836">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="105" selection-end-column="5" />
+          <folding>
+            <element signature="e#4318#4319#0" expanded="true" />
+            <element signature="e#4369#4370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/UserGroupPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1384" max-vertical-offset="1962">
+          <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
+          <folding>
+            <element signature="e#4892#4893#0" expanded="true" />
+            <element signature="e#4942#4943#0" expanded="true" />
+            <element signature="e#5068#5069#0" expanded="true" />
+            <element signature="e#5115#5116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/LocationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4638298" vertical-offset="376" max-vertical-offset="1926">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#4686#4687#0" expanded="true" />
+            <element signature="e#4732#4733#0" expanded="true" />
+            <element signature="e#4869#4870#0" expanded="true" />
+            <element signature="e#4920#4921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/AreaServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="1440">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/AreaAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1338" max-vertical-offset="1962">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/conf/factory/CommentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/model/CommentResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1404">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/domain/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2016">
+          <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/laclance/SurfersOnline/api/SurfSpotPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/services/LocationServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1350">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/domain/LocationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="1134">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/TestSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="702">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/laclance/SurfersOnline/api/integrationtests/SurfSpotAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9620854" vertical-offset="666" max-vertical-offset="1962">
+          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

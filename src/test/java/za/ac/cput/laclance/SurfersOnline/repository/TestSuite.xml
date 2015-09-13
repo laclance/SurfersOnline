@@ -22,7 +22,7 @@
 
     <test name="UserGroupCrudTest">
         <classes>
-            <class name="za.ac.cput.laclance.SurfersOnline.repository.UserGroupCrudTest" />
+            <class name="za.ac.cput.laclance.SurfersOnline.repository.UserGroupAPITestCrudTest" />
         </classes>
     </test>
 

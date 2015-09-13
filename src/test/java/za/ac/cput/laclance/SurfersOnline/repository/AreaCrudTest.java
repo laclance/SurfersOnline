@@ -11,7 +11,9 @@ import za.ac.cput.laclance.SurfersOnline.conf.factory.*;
 import za.ac.cput.laclance.SurfersOnline.domain.*;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @SpringApplicationConfiguration(classes= App.class)
 @WebAppConfiguration
@@ -23,18 +25,27 @@ public class AreaCrudTest extends AbstractTestNGSpringContextTests {
     private Waves waves;
     private List<Location> locations;
     private List<SurfSpot> surfSpots;
+    private List<Comment> comments;
 
     @Autowired
     private AreaRepository repository;
 
     @BeforeClass
     public void setUp() throws Exception {
+        comments = new ArrayList<>();
+        Map values = new HashMap<>();
+        values.put("comment","hello");
+        values.put("username","laclance");
+
         basics = BasicInfoFactory.createBasicInfo("West Coast", "");
         weather = WeatherFactory.createWeather("Cloudy", 0, 1, 1, 1);
         waves = WavesFactory.createWaves("Good", 1, "s", 1, "s", "s", 1);
 
+        Comment comment = CommentFactory.createComment(values, "10/10/2015");
+        comments.add(comment);
+
         surfSpots = new ArrayList();
-        surfSpots.add(SurfSpotFactory.createSurfSpot(basics, waves));
+        surfSpots.add(SurfSpotFactory.createSurfSpot(basics, waves, comments));
 
         locations = new ArrayList();
         locations.add(LocationFactory.createLocation(basics, weather, surfSpots));

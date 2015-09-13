@@ -2,12 +2,14 @@ package za.ac.cput.laclance.SurfersOnline.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.Link;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.util.UriComponentsBuilder;
+import za.ac.cput.laclance.SurfersOnline.domain.*;
 import za.ac.cput.laclance.SurfersOnline.domain.Location;
-import za.ac.cput.laclance.SurfersOnline.domain.SurfSpot;
 import za.ac.cput.laclance.SurfersOnline.model.LocationResource;
 import za.ac.cput.laclance.SurfersOnline.services.LocationService;
 
@@ -15,40 +17,99 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping(value="/api/location/**")
+@RequestMapping("/api/**")
 public class LocationPage {
     @Autowired
     private LocationService service;
 
-    @RequestMapping(value="/{id}/", method= RequestMethod.GET)
-    public Location getLocation(@PathVariable Long id) {
-        return service.getLocation(id);
-    }
+    //-------------------Retrieve All Locations--------------------------------------------------------
 
-    @RequestMapping(value="/{id}/surfspots", method= RequestMethod.GET)
-    public List<SurfSpot> getSurfSpots(@PathVariable Long id) {
-        return service.getSurfSpots(id);
-    }
-
-    @RequestMapping(value="/all", method= RequestMethod.GET)
-    public List<LocationResource> getLocations() {
-        List<LocationResource> hateos = new ArrayList<>();
-        List<Location> locations = service.getAllLocations();
-
-        for (Location location : locations) {
-            LocationResource res = new LocationResource
-                    .Builder(location.getBasicInfo())
-                    .weather(location.getWeather())
-                    .surfSpots(location.getSurfSpots())
-                    .resid(location.getId())
-                    .build();
-
-            Link surfspots = new
-                    Link("http://localhost:8080/location/"+res.getResid().toString())
-                    .withRel("locations");
-            res.add(surfspots);
-            hateos.add(res);
+    @RequestMapping(value = "/locations/", method = RequestMethod.GET)
+    public ResponseEntity<List<Location>> listAllLocations() {
+        List<Location> Locations = service.findAll();
+        if(Locations.isEmpty()){
+            return new ResponseEntity<List<Location>>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
         }
-        return hateos;
+        return new ResponseEntity<List<Location>>(Locations, HttpStatus.OK);
+    }
+
+
+    //-------------------Retrieve Single Location--------------------------------------------------------
+
+    @RequestMapping(value = "/location/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Location> getLocation(@PathVariable("id") long id) {
+        System.out.println("Fetching Location with id " + id);
+        Location Location = service.findById(id);
+        if (Location == null) {
+            System.out.println("Location with id " + id + " not found");
+            return new ResponseEntity<Location>(HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<Location>(Location, HttpStatus.OK);
+    }
+
+
+    //-------------------Create a Location--------------------------------------------------------
+
+    @RequestMapping(value = "/location/create", method = RequestMethod.POST)
+    public ResponseEntity<Void> createLocation(@RequestBody Location location, UriComponentsBuilder ucBuilder) {
+        System.out.println("Creating Location " + location.getBasicInfo().getName());
+
+/*      if (LocationService.isLocationExist(Location)) {
+            System.out.println("A Location with name " + Location.getName() + " already exist");
+            return new ResponseEntity<Void>(HttpStatus.CONFLICT);
+        }*/
+
+        service.save(location);
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setLocation(ucBuilder.path("/location/{id}").buildAndExpand(location.getId()).toUri());
+        return new ResponseEntity<Void>(headers, HttpStatus.CREATED);
+    }
+
+    //------------------- Update a Location --------------------------------------------------------
+
+    @RequestMapping(value = "/location/update/{id}", method = RequestMethod.PUT)
+    public ResponseEntity<Location> updateLocation(@PathVariable("id") long id, @RequestBody Location location) {
+        System.out.println("Updating Location " + id);
+
+        Location currentLocation = service.findById(id);
+
+        if (currentLocation==null) {
+            System.out.println("Location with id " + id + " not found");
+            return new ResponseEntity<Location>(HttpStatus.NOT_FOUND);
+        }
+
+        Location updatedLocation = new Location
+                .Builder(currentLocation.getBasicInfo())
+                .copy(currentLocation)
+                .build();
+        service.update(updatedLocation);
+        return new ResponseEntity<Location>(updatedLocation, HttpStatus.OK);
+    }
+
+    //------------------- Delete a Location --------------------------------------------------------
+
+    @RequestMapping(value = "/location/delete/{id}", method = RequestMethod.DELETE)
+    public ResponseEntity<Location> deleteLocation(@PathVariable("id") long id) {
+        System.out.println("Fetching & Deleting Location with id " + id);
+
+        Location location = service.findById(id);
+        if (location == null) {
+            System.out.println("Unable to delete. Location with id " + id + " not found");
+            return new ResponseEntity<Location>(HttpStatus.NOT_FOUND);
+        }
+
+        service.delete(location);
+        return new ResponseEntity<Location>(HttpStatus.NO_CONTENT);
+    }
+
+    @RequestMapping(value="/{id}/waves", method=RequestMethod.GET)
+    Weather getLocationWeather(@PathVariable Long id) {
+        return service.findWeather(id);
+    }
+
+    @RequestMapping(value="/{id}/surfSpots", method=RequestMethod.GET)
+    List<SurfSpot> getLocationSurfSpots(@PathVariable Long id) {
+        return service.findAllSurfSpots(id);
     }
 }

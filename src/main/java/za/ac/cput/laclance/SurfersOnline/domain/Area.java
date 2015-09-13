@@ -75,6 +75,26 @@ public class Area implements Serializable {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Area)) return false;
+
+        Area area = (Area) o;
+
+        if (basicInfo != null ? !basicInfo.equals(area.basicInfo) : area.basicInfo != null) return false;
+        if (id != null ? !id.equals(area.id) : area.id != null) return false;
+        if (locations != null ? !locations.equals(area.locations) : area.locations != null) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = id != null ? id.hashCode() : 0;
+        return result;
+    }
+
+    @Override
     public String toString() {
         return "Area{" +
                 "id=" + id +

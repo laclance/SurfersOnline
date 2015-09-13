@@ -37,7 +37,7 @@ public class UserGroupAPITestTest {
         User user = UserFactory.createUser(values, userBasics, contact, extras);
         users.add(user);
 
-        Comment comment = CommentFactory.createComment(values);
+        Comment comment = CommentFactory.createComment(values, "10/10/2015");
         comments.add(comment);
     }
 

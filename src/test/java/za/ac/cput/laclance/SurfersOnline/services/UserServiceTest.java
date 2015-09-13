@@ -62,13 +62,13 @@ public class UserServiceTest extends AbstractTestNGSpringContextTests{
 
     @Test(dependsOnMethods = "create")
     public void testGetUser() throws Exception {
-       User user = service.getUser(id);
+       User user = service.findById(id);
         Assert.assertNotNull(user);
     }
 
     @Test(dependsOnMethods = "testGetUser")
     public void testGetUsers() throws Exception {
-        List<User> users = service.getAllUsers();
+        List<User> users = service.findAll();
         Assert.assertTrue(users.size() == 1);
     }
 }
