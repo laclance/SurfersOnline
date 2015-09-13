@@ -1,7 +1,7 @@
 package za.ac.cput.laclance.SurfersOnline.repository;
 
-/**
- * Created by student on 2015/09/12.
- */
-public class CommentRepository {
+import org.springframework.data.repository.CrudRepository;
+import za.ac.cput.laclance.SurfersOnline.domain.Comment;
+
+public interface CommentRepository  extends CrudRepository<Comment, Long> {
 }

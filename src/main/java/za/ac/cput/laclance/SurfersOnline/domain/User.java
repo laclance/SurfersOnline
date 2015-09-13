@@ -113,6 +113,29 @@ public class User implements Serializable {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof User)) return false;
+
+        User user = (User) o;
+
+        if (id != null ? !id.equals(user.id) : user.id != null) return false;
+        if (password != null ? !password.equals(user.password) : user.password != null) return false;
+        if (userbasics != null ? !userbasics.equals(user.userbasics) : user.userbasics != null) return false;
+        if (usercontact != null ? !usercontact.equals(user.usercontact) : user.usercontact != null) return false;
+        if (userextras != null ? !userextras.equals(user.userextras) : user.userextras != null) return false;
+        if (username != null ? !username.equals(user.username) : user.username != null) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = id != null ? id.hashCode() : 0;
+        return result;
+    }
+
+    @Override
     public String toString() {
         return "User{" +
                 "id=" + id +

@@ -14,7 +14,11 @@ public class UserGroup implements Serializable {
     private BasicInfo basicInfo;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name = "group_id")
+    @JoinColumn(name = "group_comment_id")
+    private List<Comment> comments;
+
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(name = "group_user_id")
     private List<User> users;
 
     private UserGroup() {
@@ -23,6 +27,7 @@ public class UserGroup implements Serializable {
     public UserGroup(Builder builder) {
         id = builder.id;
         basicInfo = builder.basicInfo;
+        comments = builder.comments;
         users = builder.users;
     }
 
@@ -34,6 +39,10 @@ public class UserGroup implements Serializable {
         return basicInfo;
     }
 
+    public  List<Comment> getComments() {
+        return comments;
+    }
+
     public List<User> getUsers() {
         return users;
     }
@@ -41,6 +50,7 @@ public class UserGroup implements Serializable {
     public static class Builder {
         private Long id;
         private BasicInfo basicInfo;
+        private List<Comment> comments;
         private List<User> users;
 
         public Builder(BasicInfo basicInfo) {
@@ -57,6 +67,11 @@ public class UserGroup implements Serializable {
             return this;
         }
 
+        public Builder comments(List<Comment> comments) {
+            this.comments = comments;
+            return this;
+        }
+
         public Builder users(List<User> users) {
             this.users = users;
             return this;
@@ -65,6 +80,7 @@ public class UserGroup implements Serializable {
         public Builder copy(UserGroup userGroup) {
             this.id = userGroup.getId();
             this.basicInfo = userGroup.getBasicInfo();
+            this.comments = userGroup.getComments();
             this.users = userGroup.getUsers();
             return this;
         }
@@ -77,11 +93,12 @@ public class UserGroup implements Serializable {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof UserGroup)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
 
         UserGroup userGroup = (UserGroup) o;
 
         if (basicInfo != null ? !basicInfo.equals(userGroup.basicInfo) : userGroup.basicInfo != null) return false;
+        if (comments != null ? !comments.equals(userGroup.comments) : userGroup.comments != null) return false;
         if (id != null ? !id.equals(userGroup.id) : userGroup.id != null) return false;
         if (users != null ? !users.equals(userGroup.users) : userGroup.users != null) return false;
 
@@ -91,8 +108,6 @@ public class UserGroup implements Serializable {
     @Override
     public int hashCode() {
         int result = id != null ? id.hashCode() : 0;
-        result = 31 * result + (basicInfo != null ? basicInfo.hashCode() : 0);
-        result = 31 * result + (users != null ? users.hashCode() : 0);
         return result;
     }
 
@@ -101,6 +116,7 @@ public class UserGroup implements Serializable {
         return "UserGroup{" +
                 "id=" + id +
                 ", basicInfo=" + basicInfo +
+                ", comments=" + comments +
                 ", users=" + users +
                 '}';
     }

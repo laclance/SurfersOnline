@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class UserGroupAPITestTest {
+public class UserGroupTest {
     private BasicInfo basics;
     private List<User> users;
     private UserBasics userBasics;
@@ -33,17 +33,18 @@ public class UserGroupAPITestTest {
         contact = UserContactFactory.createUserContact("l", "55");
         extras = UserExtrasFactory.createUserExtras("a", "a", "a");
         users = new ArrayList<>();
+        comments = new ArrayList<>();
 
         User user = UserFactory.createUser(values, userBasics, contact, extras);
         users.add(user);
 
-        Comment comment = CommentFactory.createComment(values);
+        Comment comment = CommentFactory.createComment(values, "10/10/2015");
         comments.add(comment);
     }
 
     @Test
     public void testCreateGroup() throws Exception {
-        UserGroup Group = UserGroupFactory.createGroup(basics, comments, users);
-        Assert.assertEquals("Old School Riders", Group.getBasicInfo().getName());
+        UserGroup userGroup = UserGroupFactory.createGroup(basics, comments, users);
+        Assert.assertEquals("Old School Riders", userGroup.getBasicInfo().getName());
     }
 }

@@ -17,12 +17,28 @@ public class LocationServiceImpl implements LocationService {
     LocationRepository repository;
 
     @Override
-    public Location getLocation(Long id) {
+    public Location findById(Long id) {
         return repository.findOne(id);
     }
 
     @Override
-    public List<Location> getAllLocations() {
+    public Location save(Location entity) {
+        return repository.save(entity);
+    }
+
+    @Override
+    public Location update(Location entity) {
+        return repository.save(entity);
+    }
+
+    @Override
+    public void delete(Location entity) {
+        repository.delete(entity);
+
+    }
+
+    @Override
+    public List<Location> findAll() {
         List<Location> allLocations = new ArrayList<>();
 
         Iterable<Location> locations = repository.findAll();
@@ -33,12 +49,12 @@ public class LocationServiceImpl implements LocationService {
     }
 
     @Override
-    public Weather getWeather(Long id) {
+    public Weather findWeather(Long id) {
         return repository.findOne(id).getWeather();
     }
 
     @Override
-    public List<SurfSpot> getSurfSpots(Long id) {
+    public List<SurfSpot> findAllSurfSpots(Long id) {
         return repository.findOne(id).getSurfSpots();
     }
 }

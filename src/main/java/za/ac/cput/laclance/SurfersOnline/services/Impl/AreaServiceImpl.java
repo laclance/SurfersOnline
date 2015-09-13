@@ -16,12 +16,28 @@ public class AreaServiceImpl implements AreaService {
     AreaRepository repository;
 
     @Override
-    public Area getArea(Long id) {
+    public Area findById(Long id) {
         return repository.findOne(id);
     }
 
     @Override
-    public List<Area> getAllAreas() {
+    public Area save(Area entity) {
+        return repository.save(entity);
+    }
+
+    @Override
+    public Area update(Area entity) {
+        return repository.save(entity);
+    }
+
+    @Override
+    public void delete(Area entity) {
+        repository.delete(entity);
+
+    }
+
+    @Override
+    public List<Area> findAll() {
         List<Area> allAreas = new ArrayList<>();
         Iterable<Area> areas = repository.findAll();
         for (Area area : areas) {
@@ -31,7 +47,7 @@ public class AreaServiceImpl implements AreaService {
     }
 
     @Override
-    public List<Location> getLocations(Long id) {
+    public List<Location> findAllLocations(Long id) {
         return repository.findOne(id).getLocations();
     }
 }

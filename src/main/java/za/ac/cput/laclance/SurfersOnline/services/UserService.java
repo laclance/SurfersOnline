@@ -4,7 +4,5 @@ import za.ac.cput.laclance.SurfersOnline.domain.User;
 
 import java.util.List;
 
-public interface UserService {
-    User getUser(Long id);
-    List<User> getAllUsers();
+public interface UserService extends Services<User,Long>  {
 }
